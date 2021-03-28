@@ -1,12 +1,20 @@
+#
+# Project: Adventure game
+#
+# A text-based adventure game in an Open Field, filled with grass and yellow wildflowers.
+#
+# Author: Viraj Deshaval
+# Created on 15th Feb. 2021
+#
 import time
 import random
 
-
+# Function created to add pauses
 def print_pause(prompt, seconds=2):
     print(prompt)
     time.sleep(seconds)
 
-
+# Introduction function to show the intro.
 def intro(monster):
     print_pause("You find yourself standing in an open field, "
                 "filled with grass and yellow wildflowers.")
@@ -17,7 +25,7 @@ def intro(monster):
     print_pause("In your hand you hold your trusty "
                 "(but not very effective) dagger.\n")
 
-
+# Fight with monster or run away from monster
 def fight_run(monster, sword):
     if sword == "dagger":
         print_pause("You feel a bit under-prepared for this, "
@@ -51,7 +59,7 @@ def fight_run(monster, sword):
         else:
             fight_run(monster, sword)
 
-
+# Kick starts the game
 def play_again():
     response = input("Would you like to play again? (y/n)\n> ").lower()
     print("")

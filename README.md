@@ -8,7 +8,7 @@ A text-based adventure game in an **Open Field**, filled with **grass** and **ye
 
 ## How to play
 
-* Play here [Adventure Game](https://py3.codeskulptor.org/#user306_X0saRGHKpjI4gbC.py)
+* Play here [Adventure Game](https://py3.codeskulptor.org/#user306_GnGoQzWfmQwmYMM.py)
 
 ## Key Features:
 
