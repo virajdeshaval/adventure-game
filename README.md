@@ -1,6 +1,10 @@
 # Adventure Game v1.0
 
-A text-based adventure game in an **Open Field**, filled with **grass** and **yellow wildflowers**.
+A text-based adventure game in an **village**, filled with **grass** and **yellow wildflowers**.
+
+The game narrates a simple story of a village terrorized by a monster living in a Haunted House.
+
+You play the **HERO** get the **Magical Sword** to get rid of the monster.
 
 ## Author of this project
 
